@@ -1,0 +1,51 @@
+# Project information
+site_name: Martin Jackson
+site_description: Personal Page
+site_author: Martin Jackson
+
+# Repository
+repo_name: squidfunk/mkdocs-material
+repo_url: https://github.com/mfjackson/mfjackson.github.io
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2020 Martin Jackson'
+
+# Configuration
+theme:
+  name: 'material'
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  social:
+    - type: linkedin
+      link: https://www.linkedin.com/in/martinjacksonds/
+
+# Page tree
+nav:
+  - Home: index.md
