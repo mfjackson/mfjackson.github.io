@@ -1,7 +1,0 @@
-# Background
-
-I am a Data Scientist with nearly four years of experience in the industry and an additional three years of research and statistical modeling experience from my time as an Economics PhD student. I began working with Python during my first PhD course in 2014 and shortly thereafter became enamored with the world of Machine Learning and Data Science. In 2016, I was hired by Certilytics to help build predictive healthcare models from claims data, implement novel dimensionality reduction techniques in R, and maintain the operational functionality of our model library. More recently, I have been helping to build an in-house ETL and Machine Learning application written in Scala and Apache Spark. This has primarily included creating automated tagging processes from complex medical logic and building model validation and evalution classes.
-
-Outside of healthcare, I have a number of interests related to economics including the intersection of consumer behavior and socioeconomic networks, game theory as applied to adversarial ML techniques, and the role of uncertainty in the economy. Additionally, I thoroughly enjoy building well-documented, user-focused applications that make people's lives easier and occasionally contributing to open source projects. Aside from work, I live in Bend, OR, am an avid rock climber, craft beer enthusiast, and a dog dad.
-
-Cheers! :beers:
