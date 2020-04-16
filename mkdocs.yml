@@ -1,0 +1,69 @@
+# Project information
+site_name: Martin Jackson
+site_description: Personal Page
+site_author: Martin Jackson
+
+# Copyright
+copyright: 'Copyright &copy; 2020 Martin Jackson'
+
+# Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    primary: deep purple
+    accent: cyan
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+# Javascript for LaTeX implementation
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Markdown Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist
+  - pymdownx.tilde
+
+# Customization
+extra:
+  social:
+    - type: linkedin
+      link: https://www.linkedin.com/in/martinjacksonds/
+    - type: github
+      link: https://www.github.com/mfjackson
+    - type: medium
+      link: https://www.medium.com
+
+# Page tree
+nav:
+  - Home: index.md
+  - Resume/CV: resume-cv/resume-cv.md
+  - Blog: articles/articles.md
+  - Economics: economics/economics.md
